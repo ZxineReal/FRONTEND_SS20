@@ -1,5 +1,5 @@
 let number = Number(prompt("Mời bạn nhập vào một số: "));
-let numberContainer = String("");
+let numberContainer = "";
 
 if (isNaN(number) === false && number > 0) {
   for (let i = 1; i <= number; i++) {
